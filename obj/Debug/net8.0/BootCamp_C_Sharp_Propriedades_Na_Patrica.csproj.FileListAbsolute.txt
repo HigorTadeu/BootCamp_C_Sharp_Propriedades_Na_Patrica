@@ -1,0 +1,14 @@
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\bin\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.exe
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\bin\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.deps.json
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\bin\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.runtimeconfig.json
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\bin\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.dll
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\bin\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.pdb
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.AssemblyInfoInputs.cache
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.AssemblyInfo.cs
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.csproj.CoreCompileInputs.cache
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.dll
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\refint\BootCamp_C_Sharp_Propriedades_Na_Patrica.dll
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.pdb
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\BootCamp_C_Sharp_Propriedades_Na_Patrica.genruntimeconfig.cache
+C:\Users\Higor\Projetos\BootCamp_C_Sharp_Propriedades_Na_Patrica\obj\Debug\net8.0\ref\BootCamp_C_Sharp_Propriedades_Na_Patrica.dll

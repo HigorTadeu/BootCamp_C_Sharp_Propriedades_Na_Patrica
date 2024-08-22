@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BootCamp_C_Sharp_Propriedades_Na_Patrica/1.0.0": {
+        "runtime": {
+          "BootCamp_C_Sharp_Propriedades_Na_Patrica.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BootCamp_C_Sharp_Propriedades_Na_Patrica/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
