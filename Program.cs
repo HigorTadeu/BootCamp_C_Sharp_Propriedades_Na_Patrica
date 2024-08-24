@@ -1,44 +1,105 @@
 ﻿using BootCamp_C_Sharp_Propriedades_Na_Patrica.Models;
 
-/* Dicionário */
+/* Tupla */
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+//IF Ternário
 
-estados.Add("SE","Sergipe");
-estados.Add("BA","Bahia");
-estados.Add("SP","São Paulo");
+int numero = 15;
+bool ehPar = false;
 
-foreach (var item in estados)
+// Resolvendo com IF Ternário
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O número {numero} é "+ (ehPar ? "par" : "impar"));
+
+// Resolvendo com IF Normal
+if(numero % 2 == 0)
 {
-  Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
-
-//Removendo uma chave e seu valor no dictionary
-estados.Remove("BA");
-//Alterando o valor existente em uma chave
-estados["SP"] = "São Paulo - valor alterado";
-
-Console.WriteLine(" - - - - - - - - - - - - - - - -");
-
-foreach (var item in estados)
-{
-  Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
-
-string chave = "BA";
-Console.WriteLine($"Verificando o elemento: {chave}");
-
-if(estados.ContainsKey(chave))
-{
-  Console.WriteLine($"Valor existente: {chave}");
+  Console.WriteLine($"O número {numero} é par.");
 }
 else
 {
-  Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+  Console.WriteLine($"O número {numero} é ímpar.");
 }
 
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhasArquivo, quantidadeDeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if(sucesso)
+// {
+//   Console.WriteLine("Quantidade de linhas do arquivo: " + quantidadeDeLinhas);
+//   foreach (string linha in linhasArquivo)
+//   {
+//     Console.WriteLine(linha);
+//   }
+// }
+// else
+// {
+//   Console.WriteLine("Não é possível ler o arquivo");
+// }
+
+// Usando o conceito de Desconstrutor
+
+// Pessoa p1 = new Pessoa("Higor", "Tadeu");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+// (int, string, string, decimal) tupla = (1, "Higor", "Taeu", 1.93M);
+
+// // Outras formas de criar tupla
+
+// ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Higor", "Taeu", 1.93M);
+// var outroExemploTuplaCreate = Tuple.Create(1, "Higor", "Taeu", 1.93M);
+
+// Console.WriteLine($"Id: {tupla.Item1}");
+// Console.WriteLine($"Nome: {tupla.Item2}");
+// Console.WriteLine($"Sobrenome: {tupla.Item3}");
+// Console.WriteLine($"Altura: {tupla.Item4}");
+
+
+
+/* Dicionário */
+
+// Dictionary<string, string> estados = new Dictionary<string, string>();
+
+// estados.Add("SE","Sergipe");
+// estados.Add("BA","Bahia");
+// estados.Add("SP","São Paulo");
+
+// foreach (var item in estados)
+// {
+//   Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+// //Removendo uma chave e seu valor no dictionary
+// estados.Remove("BA");
+// //Alterando o valor existente em uma chave
+// estados["SP"] = "São Paulo - valor alterado";
+
+// Console.WriteLine(" - - - - - - - - - - - - - - - -");
+
+// foreach (var item in estados)
+// {
+//   Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+// string chave = "BA";
+// Console.WriteLine($"Verificando o elemento: {chave}");
+
+// if(estados.ContainsKey(chave))
+// {
+//   Console.WriteLine($"Valor existente: {chave}");
+// }
+// else
+// {
+//   Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+// }
+
 // Acessando o valor existente com base na chave
-Console.WriteLine($"Valor: {estados["SE"]}");
+//Console.WriteLine($"Valor: {estados["SE"]}");
+
 /* Pilha */
 
 // Stack<int> pilha = new Stack<int>();
