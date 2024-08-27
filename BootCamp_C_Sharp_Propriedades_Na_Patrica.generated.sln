@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootCamp_C_Sharp_Propriedades_Na_Patrica", "BootCamp_C_Sharp_Propriedades_Na_Patrica.csproj", "{9F96EC7C-7F54-41EE-8340-4BCCC858EA1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootCamp_C_Sharp_Propriedades_Na_Patrica", "BootCamp_C_Sharp_Propriedades_Na_Patrica.csproj", "{66E6D18E-4C7B-4CF7-B8AA-B5720BE98BDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F96EC7C-7F54-41EE-8340-4BCCC858EA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F96EC7C-7F54-41EE-8340-4BCCC858EA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F96EC7C-7F54-41EE-8340-4BCCC858EA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F96EC7C-7F54-41EE-8340-4BCCC858EA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66E6D18E-4C7B-4CF7-B8AA-B5720BE98BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E6D18E-4C7B-4CF7-B8AA-B5720BE98BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E6D18E-4C7B-4CF7-B8AA-B5720BE98BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E6D18E-4C7B-4CF7-B8AA-B5720BE98BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,25 +1,59 @@
 ﻿using BootCamp_C_Sharp_Propriedades_Na_Patrica.Models;
+using Newtonsoft.Json;
+
+/* Deserializar */
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda2> listaVenda = JsonConvert.DeserializeObject<List<Venda2>>(conteudoArquivo);
+
+foreach(Venda2 venda in listaVenda)
+{
+  Console.WriteLine($"Id: {venda.Id} - Produto: {venda.Produto} - Preço: {venda.Preco} - Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
+
+/* Serializar */
+
+// List<Venda> listaVendas = new List<Venda>();
+
+// DateTime dataAtual = DateTime.Now;
+
+// Venda v1 = new Venda(1, "Material de escritório", 25.00M, dataAtual);
+// Venda v2 = new Venda(2, "Licença de software", 25.00M, dataAtual);
+
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+
+// string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+// string[] arraySerializado = new string[1];
+// arraySerializado[0] = serializado;
+
+// //File.WriteAllLines("Arquivos/vendas.json", listaVendas);
+// File.WriteAllLines("Arquivos/vendas.json", arraySerializado);
+
+//Console.WriteLine(serializado);
+
 
 /* Tupla */
 
 //IF Ternário
 
-int numero = 15;
-bool ehPar = false;
+// int numero = 15;
+// bool ehPar = false;
 
-// Resolvendo com IF Ternário
-ehPar = numero % 2 == 0;
-Console.WriteLine($"O número {numero} é "+ (ehPar ? "par" : "impar"));
+// // Resolvendo com IF Ternário
+// ehPar = numero % 2 == 0;
+// Console.WriteLine($"O número {numero} é "+ (ehPar ? "par" : "impar"));
 
-// Resolvendo com IF Normal
-if(numero % 2 == 0)
-{
-  Console.WriteLine($"O número {numero} é par.");
-}
-else
-{
-  Console.WriteLine($"O número {numero} é ímpar.");
-}
+// // Resolvendo com IF Normal
+// if(numero % 2 == 0)
+// {
+//   Console.WriteLine($"O número {numero} é par.");
+// }
+// else
+// {
+//   Console.WriteLine($"O número {numero} é ímpar.");
+// }
 
 // LeituraArquivo arquivo = new LeituraArquivo();
 
